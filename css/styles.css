@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    color: #666;
+    background: #111 no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    margin: 80px auto;
+    position: relative;
+    width: 40px;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+span {
+    transition: 0.25s;
+    width: 0;
+    font-size: 18px;
+    line-height: 38px;
+    position: absolute;
+    left: 38px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.home {
+    display: block;
+    background: url(../img/navigation.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 38px;
+    width: 38px;
+}
+
+.home span {
+    background-color: #7da315;
+    color: #3d4f0c;
+    text-shadow: 1px 1px 0 #99bf31;
+    background-repeat: no-repeat;
+    background-position: -38px 1px;
+}
+
+.about {
+    display: block;
+    background: url(../img/navigation.jpg);
+    position: relative;
+    height: 38px;
+    width: 38px;
+    background-size: 190px;
+    background-repeat: no-repeat;
+    background-position: -38px 1px;
+    margin-top: 2px;
+}
+
+.about span {
+    background-color: #1e8bb4;
+    color: #223a44;
+    text-shadow: 1px 1px 0 #44a8d0;
+}
+
+.services {
+    display: block;
+    background: url(../img/navigation.jpg);
+    position: relative;
+    height: 38px;
+    width: 38px;
+    background-size: 190px;
+    background-repeat: no-repeat;
+    background-position: -76px 0;
+    margin-top: 2px;
+}
+
+.services span {
+    background-color: #c86c1f;
+    color: #5a3517;
+    text-shadow: 1px 1px 0 #d28344;
+}
+
+.portfolio {
+    display: block;
+    background: url(../img/navigation.jpg);
+    position: relative;
+    height: 38px;
+    width: 38px;
+    background-size: 190px;
+    background-repeat: no-repeat;
+    background-position: -114px 0;
+    margin-top: 2px;
+}
+
+.portfolio span {
+    background-color: #d0a525;
+    color: #604e18;
+    text-shadow: 1px 1px 0 #d8b54b;
+}
+
+.contact_us {
+    display: block;
+    background: url(../img/navigation.jpg);
+    position: relative;
+    height: 38px;
+    width: 38px;
+    background-size: 190px;
+    background-repeat: no-repeat;
+    background-position: -152px 0;
+    margin-top: 2px;
+}
+
+.contact_us span {
+    background-color: #af1e83;
+    color: #460f35;
+    text-shadow: 1px 1px 0 #d244a6;
+    white-space: nowrap;
+}
+
+li:hover a {
+    padding: 0 40px;
+    display: block;
+    transition: 0.25s;
+}
+
+a:hover span {
+    width: 90px;
+    padding: 0 20px;
+}
+
+
+
+
+
